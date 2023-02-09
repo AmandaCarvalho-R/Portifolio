@@ -64,16 +64,35 @@ body {
 }
 
 .imagem__separando__sessao {
-    margin-top: 5%;
-    width: 92%;
+    margin: 5% 0 0 7%;
+    width: 86%;
 }
 
 .linguagens {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    margin: 9.37rem 0 0  9.37rem;
+    margin: 3% 0 0  7%;
     color: var(--branco);
     font-weight: 700;
     font-size: 3rem;
+}
+
+.projeto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.projeto__titulo {
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: var(--branco);
+    margin: 14%;
+}
+
+.projeto__contato {
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--verde);
+    margin: 19% 0 0 65%;
 }
 
