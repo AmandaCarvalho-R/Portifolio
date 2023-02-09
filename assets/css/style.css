@@ -60,5 +60,20 @@ body {
 
 .imagem__contato {
     width: 11%;
+    
+}
+
+.imagem__separando__sessao {
+    margin-top: 5%;
+    width: 92%;
+}
+
+.linguagens {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 9.37rem 0 0  9.37rem;
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 3rem;
 }
 
