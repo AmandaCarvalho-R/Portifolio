@@ -1,0 +1,64 @@
+:root {
+    --preto: #151515;
+    --branco: #FFFFFF;
+    --cinza: #D9D9D9;
+    --verde: #4EE1A0;
+}
+
+body {
+    background-color: var(--preto);
+    background-image: url('/assets/img/perfil.png');
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    
+}
+
+.nome {
+    display: grid;
+    grid-template-columns: 82% 5% 10%;
+    color: var(--branco);
+    font-weight: 700;
+    font: bold;
+    font-size: 2rem;
+    margin: 2.5rem 0 0 9.37rem;
+
+}
+
+.apresentacao__principal {
+    margin: 9.37rem 0 0  9.37rem;
+    background-image: url('/assets/img/Group\ 26.png');
+    background-repeat: no-repeat;
+    
+}
+
+.titulo__principal {
+    font-weight: 700;
+    color: var(--branco);
+    font-size: 5.5rem;
+   
+}
+
+.imagem__nome {
+    margin-left: 14%;
+    width: 38%;
+}
+
+.subtitulo {
+    font-weight: 500;
+    color: var(--cinza);
+    font-size: 2rem;
+}
+
+.linha__1 {
+    margin-top: 2%;
+}
+
+.contato {
+    color: var(--verde);
+    margin-top: 3%;
+}
+
+.imagem__contato {
+    width: 11%;
+}
+
