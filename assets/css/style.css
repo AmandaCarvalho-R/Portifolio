@@ -144,6 +144,19 @@ body {
     padding: 10px;
 }
 
-@media screen {
+@media (min-width: 400px) {
+    .nome {
+        text-align: center;
+        display: block;
+    }
+
+    body {
+        background-position-x: 65%;
+        background-position-y: 5%;
+    }
+
+    .apresentacao__principal {
+        margin-top: 60%;
     
+    }
 }
