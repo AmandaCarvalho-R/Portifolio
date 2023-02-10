@@ -98,8 +98,9 @@ body {
     margin: 20% 14% 15% 65%;
 }
 
-.imagem__pizzaria {
+.projeto__imagem {
     width: 50%;
+
 }
 
 .titulo__imagem {
@@ -117,4 +118,28 @@ body {
     color: var(--cinza);
     word-spacing: 1.56rem;
     margin: 0 0 10% 0;
+}
+
+.imagem__bateria {
+    width: 27%;
+    display: block;
+    margin: 0 0 1% 12%;
+}
+
+.titulo__bateria {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--branco);
+    
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.subtitulo__bateria {
+    font-weight: 500;
+    font-size: 1.12rem;
+    color: var(--cinza);
+    word-spacing: 1.56rem;
+    margin: 0 0 10% 19%;
+    padding: 10px;
 }
