@@ -72,7 +72,7 @@ body {
 .linguagens {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    margin: 3% 0 0  7%;
+    margin: 3% 0 0  18%;
     color: var(--branco);
     font-weight: 700;
     font-size: 3rem;
@@ -142,4 +142,8 @@ body {
     word-spacing: 1.56rem;
     margin: 0 0 10% 19%;
     padding: 10px;
+}
+
+@media screen {
+    
 }
