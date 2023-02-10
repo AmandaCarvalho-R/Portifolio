@@ -10,6 +10,7 @@ body {
     background-image: url('/assets/img/perfil.png');
     background-repeat: no-repeat;
     background-position-x: 90%;
+    font-family: 'Space Grotesk';
     
 }
 
@@ -80,19 +81,40 @@ body {
 .projeto {
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: center;
 }
 
 .projeto__titulo {
     font-weight: 700;
     font-size: 5.5rem;
     color: var(--branco);
-    margin: 14%;
+    margin: 15% 42% 15% 0;
 }
 
 .projeto__contato {
     font-weight: 500;
     font-size: 2rem;
     color: var(--verde);
-    margin: 19% 0 0 65%;
+    margin: 20% 14% 15% 65%;
 }
 
+.imagem__pizzaria {
+    width: 50%;
+}
+
+.titulo__imagem {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--branco);
+    padding: 10px;
+    text-decoration: none;
+   
+}
+
+.subtitulo__imagem {
+    font-weight: 500;
+    font-size: 1.12rem;
+    color: var(--cinza);
+    word-spacing: 1.56rem;
+    margin: 0 0 10% 0;
+}
