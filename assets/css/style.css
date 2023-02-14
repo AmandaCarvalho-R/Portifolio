@@ -3,7 +3,7 @@
     --branco: #FFFFFF;
     --cinza: #D9D9D9;
     --verde: #4EE1A0;
-    --cinza-claro: #979797;
+    --cinza-escuro: #242424;
 }
 
 body {
@@ -51,18 +51,17 @@ body {
     font-size: 2rem;
 }
 
+.margem {
+    margin: 0 0 3% 0;
+}
+
 .linha__1 {
     margin-top: 2%;
 }
 
 .contato {
     color: var(--verde);
-    margin-top: 3%;
-}
-
-.imagem__contato {
-    width: 11%;
-    
+    margin-top: 5%;
 }
 
 .imagem__separando__sessao {
@@ -145,18 +144,10 @@ body {
     padding: 10px;
 }
 
-.form__contato {
-    background-color: var(--cinza-claro);
-    width: 100%;
-    background-size: 50%;
-}
-
-.formulario__texto__nome {
+.copyright {
+    background: var(--cinza-escuro);
+    padding: 40px 0;
     color: var(--branco);
-    font-size: 2.5rem;
-}
-.formulario__nome {
-    border-radius: 20px;
-    border: 10px solid var(--branco);
-    border
+    text-align: center;
+    font-weight: 500;
 }
