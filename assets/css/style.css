@@ -145,3 +145,18 @@ body {
     padding: 10px;
 }
 
+.form__contato {
+    background-color: var(--cinza-claro);
+    width: 100%;
+    background-size: 50%;
+}
+
+.formulario__texto__nome {
+    color: var(--branco);
+    font-size: 2.5rem;
+}
+.formulario__nome {
+    border-radius: 20px;
+    border: 10px solid var(--branco);
+    border
+}
