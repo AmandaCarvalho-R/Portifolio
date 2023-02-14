@@ -1,10 +1,6 @@
-var imagem = document.getElementById("pizzaria");
-var link = document.getElementById("myLink");
-
-imagem.onmouseover = function() {
-    link.style.display = "block";
-};
-
-imagem.onmouseout = function() {
-    link.style.display = "none";
-}
+document.getElementById("pizzaria").onmouseover = function() {
+    document.getElementById("myLink").style.display = "block";
+  };
+  document.getElementById("pizzaria").onmouseout = function() {
+    document.getElementById("myLink").style.display = "none";
+  };
