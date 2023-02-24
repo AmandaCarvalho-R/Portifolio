@@ -9,7 +9,6 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: var(--preto);
     background-image: url('/assets/img/perfil.png');
@@ -46,6 +45,10 @@ body {
 .imagem__nome {
     margin-left: 14%;
     width: 38%;
+}
+
+.imagem__redes__sociais {
+    transition: all 0.5s;
 }
 
 .subtitulo {
@@ -154,3 +157,9 @@ body {
     text-align: center;
     font-weight: 500;
 }
+
+.imagem__redes__sociais:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
